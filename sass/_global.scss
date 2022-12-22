@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+  font-size: 62.5%;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: $white-color;
+  background-color: $light-bg;
+  line-height: 1.6;
+  font: {
+    family: $main-font-family;
+    size: 1.5rem;
+    weight: 400;
+  }
+}
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  line-height: 1;
+}
+img {
+  display: flex;
+}
+.img-shadow {
+  box-shadow: 25px 25px 55px rgba(128, 125, 125, 0.568);
+}
+.container {
+  width: 100%;
+  padding: {
+    left: 24px;
+    right: 24px;
+  }
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}

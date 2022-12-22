@@ -1,0 +1,24 @@
+.header {
+  padding: {
+    top: 2.5rem;
+    bottom: 2.5rem;
+  }
+  background-color: $header-footer-bg;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    gap: 4rem;
+
+    a {
+      font-size: 14px;
+      line-height: 20px;
+      /* identical to box height, or 143% */
+
+      color: $white-color;
+    }
+  }
+}
